@@ -5,3 +5,4 @@ adzap-ar_mailer --source gems.github.com
 whenever
 icalendar
 system_timer
+libxml-ruby
