@@ -8,6 +8,7 @@ Rails::Initializer.run do |config|
   config.action_controller.session_store = :active_record_store
   config.gem 'haml'
   config.gem 'sprockets'
+  config.gem 'exceptional' 
   config.gem 'RedCloth'
   config.gem 'completeness-fu'
   config.gem 'system_timer'
