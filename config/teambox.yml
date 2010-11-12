@@ -17,10 +17,10 @@ defaults: &DEFAULTS
   # By default, will send emails in production mode but not in development.
   allow_outgoing_email: true
   outgoing:
-    from: yourapp.com           # the domain your emails will come from, as in no_reply@app.teambox.com
-    host: localhost             # the actual SMTP server used to deliver emails. can be a local or remote server
-    user: username
-    pass: password
+    from: skys.org.au           # the domain your emails will come from, as in no_reply@app.teambox.com
+    host: mail.optusnet.com.au             # the actual SMTP server used to deliver emails. can be a local or remote server
+    user: 
+    pass: 
     auth: plain                 # choose: plain, login, cram_md5    
     port: 25
     enable_starttls_auto: false # Set to true for gmail smtp server
@@ -82,7 +82,7 @@ defaults: &DEFAULTS
   daily_task_reminder_email_time: "06:00"
 development:
   <<: *DEFAULTS
-  app_domain: localhost:3000
+  app_domain: localhost:3002
   allow_outgoing_email: false
 
 production:
