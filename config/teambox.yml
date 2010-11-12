@@ -18,8 +18,8 @@ defaults: &DEFAULTS
   allow_outgoing_email: true
   outgoing:
     from: skys.org.au           # the domain your emails will come from, as in no_reply@app.teambox.com
-    host: mail.optusnet.com.au             # the actual SMTP server used to deliver emails. can be a local or remote server
-    user: 
+    host: mail.skys.org.au             # the actual SMTP server used to deliver emails. can be a local or remote server
+    user: skys.all@skys.org.au
     pass: 
     auth: plain                 # choose: plain, login, cram_md5    
     port: 25
