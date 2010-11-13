@@ -7,7 +7,7 @@
 # You can override them individually under development, test or production.
 defaults: &DEFAULTS
   # The domain from where your app is served.
-  app_domain: app.teambox.com
+  app_domain: skysteambox.heroku.com
 
   # How many activities should activity feeds display?
   activities_per_page: 25
